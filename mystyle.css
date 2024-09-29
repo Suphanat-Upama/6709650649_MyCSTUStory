@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 16px;
+    
+}
+
+header {
+    background-color: rgb(238, 238, 238);
+    padding: 5px;
+    height: 173px;
+    text-align: center;
+
+}
+
+nav {
+    align-items: center;
+}
+
+nav ul a {
+    padding: 75px;
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+nav ul a:hover {
+    color: #24cb7d;
+}
+
+nav a img {
+    padding: 20px;
+
+}
+
+
+table {
+    font-size: 16px;
+    background-color: rgb(254, 254, 252);
+    width: auto;
+}
+
+th, td {
+    border: 0px ;
+    border-radius: 13px;
+    padding: 15px;
+    box-shadow: 8px 10px 10px 10px rgba(46, 45, 45, 0.1);
+    font-size: 16px;
+}
+
+.specificpoint {
+    background-color: rgb(248, 248, 248);
+    border: 0px; 
+    border-radius: 13px; 
+    padding: 5px;
+    box-shadow: 8px 10px 10px 10px rgba(46, 45, 45, 0.1);
+    width: auto;
+}
+
+
+
+footer {
+    background-color: rgb(238, 238, 238);
+    height: 105px;
+    padding: 15px;
+
+}
