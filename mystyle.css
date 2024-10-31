@@ -26,20 +26,33 @@ nav {
     align-items: center;
 }
 
-nav ul a {
-    padding: 75px;
+nav a b {
+    padding: 70px;
     color: #000000;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.35s ease;
     
 }
 
-nav ul a:hover {
+nav a b:hover {
     color: #24cb7d;
+}
+
+nav b {
+    font-size: 20px;
+
 }
 
 nav a img {
     padding: 20px;
+    width: 80px;
+    border-radius: 13px;
+
+}
+
+.navsec {
+    padding: 8px; 
+    font-size: 20px;
 
 }
 
@@ -74,4 +87,50 @@ footer {
     height: 105px;
     padding: 15px;
 
+}
+
+/* .foothome01 {
+    display: flex; 
+    align-items: center; 
+    float: right;
+
+}
+
+.foothome02 {
+    display: flex; 
+    align-items: center; 
+    float: left;
+
+} */
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .navsec {
+        padding: 3px; 
+        font-size: 14px;
+    
+    }
+
+    nav a b {
+        padding: 5px;
+        color: #000000;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        
+    }
+
+    nav b {
+        font-size: 16px;
+    
+    }
+
+    nav a img {
+        padding: 10px;
+        width: 35px;
+        border-radius: 13px;
+    }
+
+    
 }
